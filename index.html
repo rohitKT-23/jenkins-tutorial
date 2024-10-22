@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Jenkins</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 4px;
+            background-color: #4CAF50;
+        }
+
+        nav a:hover {
+            background-color: #45a049;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .feature-box {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            width: 30%;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-box h3 {
+            color: #4CAF50;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Jenkins</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Jenkins</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Jenkins</h2>
+        <p>
+            Jenkins is an open-source automation server that enables developers around the world to reliably build, test, and deploy their software. With Jenkins, teams can automate tasks that are often time-consuming and error-prone, such as integration and deployment, so they can focus more on the actual development.
+        </p>
+    </section>
+
+    <section id="features">
+        <h2>Features of Jenkins</h2>
+        <div class="features">
+            <div class="feature-box">
+                <h3>Continuous Integration</h3>
+                <p>
+                    Jenkins automates the process of integrating code changes from multiple contributors into a shared project several times a day, ensuring faster development.
+                </p>
+            </div>
+            <div class="feature-box">
+                <h3>Extensible with Plugins</h3>
+                <p>
+                    Jenkins boasts an ecosystem of over 1,500 plugins, allowing users to extend its core capabilities and integrate with different platforms and tools.
+                </p>
+            </div>
+            <div class="feature-box">
+                <h3>Easy Configuration</h3>
+                <p>
+                    Jenkins provides a user-friendly interface and flexible pipeline options to configure builds, tests, and deployments quickly and efficiently.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out at <strong>support@jenkins.io</strong>.</p>
+    </section>
+
+    <div class="footer">
+        <p>&copy; 2024 Jenkins Project. All rights reserved.</p>
+    </div>
+</body>
+</html>
